@@ -1,4 +1,28 @@
 body{
-	background-color: whitesmoke;
+	background-color: #C77A8A;
 	font-family: 'Lobster', cursive;
+	display: inline-block;
+	padding:80px;
+	position: absolute; /* desde acá hasta transform (centra) */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+	font-size:50px;
+	color: #88182E;
+}
+
+input{
+	color: black;
+}
+
+footer{
+		font-size:15px;
+		position: static;
+	  top: 50%;
+	  left: 50%;
+		display: inline-block;
+		color: #88182E;
 }
